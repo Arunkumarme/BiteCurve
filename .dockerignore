@@ -1,0 +1,12 @@
+.git/
+target/
+.settings/
+.classpath
+.project
+.idea/
+.vscode/
+.env
+.env.*
+*.log
+uploads/
+src/main/webapp/uploads/
