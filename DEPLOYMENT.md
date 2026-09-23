@@ -14,6 +14,16 @@ DB_PASSWORD=<database_password>
 
 The deployed server must be able to connect to the MySQL database.
 
+## Database Initialization
+
+Initialize MySQL from the project database export before starting the application:
+
+```bash
+mysql -u <database_user> -p <database_name> < database/bitecurve_database.sql
+```
+
+The export should contain the BiteCurve schema and seed data for the application tables, including `users`, `restaurants`, `menu_items`, `cart`, `orders`, `order_items`, `payments`, and `reviews`.
+
 ## Deploy as a WAR
 
 1. Build the project:
