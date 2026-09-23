@@ -36,7 +36,7 @@ BiteCurve is a Java web application for a food delivery workflow. It lets users 
    mysql -u your_mysql_user -p food_delivery_app < database/bitecurve_database.sql
    ```
 
-   The database export should include the BiteCurve schema and seed data used by the application, including `users`, `restaurants`, `menu_items`, `cart`, `orders`, `order_items`, `payments`, and `reviews`.
+   The included export contains the BiteCurve schema and sanitized seed data used by the application, including `users`, `restaurants`, `menu_items`, `cart`, `orders`, `order_items`, `payments`, and `reviews`.
 
 3. Configure the database connection with environment variables:
 
