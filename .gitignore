@@ -1,0 +1,33 @@
+# Maven build output
+target/
+
+# Eclipse project metadata
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+application-local.properties
+
+# Logs
+*.log
+logs/
+
+# Runtime uploads and generated files
+uploads/
+src/main/webapp/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
